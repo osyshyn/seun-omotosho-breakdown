@@ -763,6 +763,54 @@ const InvestmentSection = () => {
               <div className="bg-gray-800 rounded-full h-2 overflow-hidden">
                 <div 
                   className="bg-gradient-to-r from-orange-500 to-red-500 h-full transition-all duration-2000 ease-out delay-800"
+                  style={{ width: `${phase2ProgressValues.advanced}%` }}
+                ></div>
+              </div>
+            </div>
+
+            <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6">
+              <div className="flex items-center mb-4">
+                <Users className="w-8 h-8 text-cyan-400 mr-3" />
+                <div>
+                  <h4 className="font-semibold">Analytics & Reporting</h4>
+                  <p className="text-sm text-gray-300">Business Intelligence</p>
+                </div>
+              </div>
+              <div className="text-3xl font-bold text-cyan-400 mb-4">$12,000</div>
+              <div className="bg-gray-800 rounded-full h-2 overflow-hidden">
+                <div 
+                  className="bg-gradient-to-r from-cyan-500 to-blue-500 h-full transition-all duration-2000 ease-out delay-1000"
+                  style={{ width: `${phase2ProgressValues.analytics}%` }}
+                ></div>
+              </div>
+            </div>
+
+            <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6">
+              <div className="flex items-center mb-4">
+                <Zap className="w-8 h-8 text-green-400 mr-3" />
+                <div>
+                  <h4 className="font-semibold">AI & Automation</h4>
+                  <p className="text-sm text-gray-300">Smart Features & ML</p>
+                </div>
+              </div>
+              <div className="text-3xl font-bold text-green-400 mb-4">$15,000</div>
+              <div className="bg-gray-800 rounded-full h-2 overflow-hidden">
+                <div 
+                  className="bg-gradient-to-r from-green-500 to-teal-500 h-full transition-all duration-2000 ease-out delay-1200"
+                  style={{ width: `${phase2ProgressValues.ai}%` }}
+                ></div>
+              </div>
+            </div>
+          </div>
+
+          <div className="text-center">
+            <div className="text-3xl font-bold text-blue-400 mb-2">
+              Phase 2 Investment: $40,000 - $45,000
+            </div>
+            <p className="text-lg text-gray-300">8-10 weeks additional development</p>
+          </div>
+        </div>
+
         <div className="text-center">
           <h4 className="text-2xl font-bold mb-4">Ready to Transform Your Business?</h4>
           <p className="text-gray-300 mb-8 max-w-2xl mx-auto">
