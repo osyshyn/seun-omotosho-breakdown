@@ -763,119 +763,27 @@ const InvestmentSection = () => {
               <div className="bg-gray-800 rounded-full h-2 overflow-hidden">
                 <div 
                   className="bg-gradient-to-r from-orange-500 to-red-500 h-full transition-all duration-2000 ease-out delay-800"
-                  style={{ width: `${phase2ProgressValues.advanced}%` }}
-                ></div>
-              </div>
-              <ul className="text-sm text-gray-300 mt-4 space-y-1">
-                <li>• Real-time GPS tracking</li>
-                <li>• Yard management system</li>
-                <li>• PWA customer portal</li>
-                <li>• Advanced notifications</li>
-              </ul>
-            </div>
-
-            <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6">
-              <div className="flex items-center mb-4">
-                <Users className="w-8 h-8 text-cyan-400 mr-3" />
-                <div>
-                  <h4 className="font-semibold">Analytics & Reporting</h4>
-                  <p className="text-sm text-gray-300">Performance & Financial Analytics</p>
-                </div>
-              </div>
-              <div className="text-3xl font-bold text-cyan-400 mb-4">$12,000</div>
-              <div className="bg-gray-800 rounded-full h-2 overflow-hidden">
-                <div 
-                  className="bg-gradient-to-r from-cyan-500 to-blue-500 h-full transition-all duration-2000 ease-out delay-1000"
-                  style={{ width: `${phase2ProgressValues.analytics}%` }}
-                ></div>
-              </div>
-              <ul className="text-sm text-gray-300 mt-4 space-y-1">
-                <li>• Carrier performance analytics</li>
-                <li>• Advanced financial reports</li>
-                <li>• Predictive analytics</li>
-                <li>• Profitability metrics</li>
-              </ul>
-            </div>
-
-            <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6">
-              <div className="flex items-center mb-4">
-                <Zap className="w-8 h-8 text-emerald-400 mr-3" />
-                <div>
-                  <h4 className="font-semibold">AI & Automation</h4>
-                  <p className="text-sm text-gray-300">Smart Recommendations & Detection</p>
-                </div>
-              </div>
-              <div className="text-3xl font-bold text-emerald-400 mb-4">$15,000</div>
-              <div className="bg-gray-800 rounded-full h-2 overflow-hidden">
-                <div 
-                  className="bg-gradient-to-r from-emerald-500 to-green-500 h-full transition-all duration-2000 ease-out delay-1200"
-                  style={{ width: `${phase2ProgressValues.ai}%` }}
-                ></div>
-              </div>
-              <ul className="text-sm text-gray-300 mt-4 space-y-1">
-                <li>• AI-powered quote recommendations</li>
-                <li>• Anomaly detection</li>
-                <li>• Automatic dispatch matching</li>
-                <li>• OCR & data extraction</li>
-              </ul>
-            </div>
-          </div>
-
-          <div className="text-center mb-8">
-            <div className="text-4xl font-bold text-emerald-400 mb-2">
-              Phase 2 Total: $40,000 - $42,000
-            </div>
-            <p className="text-xl text-gray-300">8-10 weeks additional development</p>
-          </div>
-        </div>
-
-        {/* Combined Investment Summary */}
-        <div className="bg-gradient-to-r from-yellow-900/50 to-orange-900/50 backdrop-blur-sm rounded-3xl p-8 border border-yellow-500/20 mb-8">
-          <h3 className="text-3xl font-bold text-center mb-6">Complete Platform Investment</h3>
+        <div className="text-center">
+          <h4 className="text-2xl font-bold mb-4">Ready to Transform Your Business?</h4>
+          <p className="text-gray-300 mb-8 max-w-2xl mx-auto">
+            Launch your vehicle shipping platform with our comprehensive MVP solution. Let's discuss how AutoShip Platform can revolutionize your operations.
+          </p>
           
-          <div className="grid md:grid-cols-2 gap-8 mb-8">
-            <div className="text-center">
-              <div className="text-2xl font-semibold text-yellow-400 mb-2">Phase 1 (MVP)</div>
-              <div className="text-4xl font-bold text-white mb-2">$28,000 - $30,000</div>
-              <div className="text-gray-300">Core functionality & launch</div>
-            </div>
-            <div className="text-center">
-              <div className="text-2xl font-semibold text-orange-400 mb-2">Phase 2 (Advanced)</div>
-              <div className="text-4xl font-bold text-white mb-2">$40,000 - $42,000</div>
-              <div className="text-gray-300">AI, analytics & automation</div>
-            </div>
-          </div>
-          
-          <div className="text-center border-t border-white/20 pt-6">
-            <div className="text-2xl font-semibold text-gray-300 mb-2">Total Investment</div>
-            <div className="text-5xl font-bold bg-gradient-to-r from-yellow-400 to-orange-400 bg-clip-text text-transparent mb-2">
-              $68,000 - $72,000
-            </div>
-            <div className="text-xl text-gray-300">Complete enterprise-grade platform</div>
-          </div>
-
-          <div className="text-center">
-            <h4 className="text-2xl font-bold mb-4">Ready to Transform Your Business?</h4>
-            <p className="text-gray-300 mb-8 max-w-2xl mx-auto">
-              Start with Phase 1 MVP to launch your platform, then scale with Phase 2 advanced features. Let's discuss how AutoShip Platform can revolutionize your vehicle shipping operations.
-            </p>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <button className="group inline-flex items-center px-8 py-4 bg-gradient-to-r from-green-500 to-teal-500 hover:from-green-600 hover:to-teal-600 rounded-full text-white font-semibold transition-all duration-300 transform hover:scale-105">
+              <Mail className="w-5 h-5 mr-2" />
+              Get Started
+              <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
+            </button>
             
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <button className="group inline-flex items-center px-8 py-4 bg-gradient-to-r from-green-500 to-teal-500 hover:from-green-600 hover:to-teal-600 rounded-full text-white font-semibold transition-all duration-300 transform hover:scale-105">
-                <Mail className="w-5 h-5 mr-2" />
-                Start Phase 1
-                <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
-              </button>
-              
-              <button 
-                onClick={() => document.getElementById('demo')?.scrollIntoView({ behavior: 'smooth' })}
-                className="group inline-flex items-center px-8 py-4 bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700 rounded-full text-white font-semibold transition-all duration-300 transform hover:scale-105"
-              >
-                <Calculator className="w-5 h-5 mr-2" />
-                Try Demo
-                <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
-              </button>
-            </div>
+            <button 
+              onClick={() => document.getElementById('demo')?.scrollIntoView({ behavior: 'smooth' })}
+              className="group inline-flex items-center px-8 py-4 bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700 rounded-full text-white font-semibold transition-all duration-300 transform hover:scale-105"
+            >
+              <Calculator className="w-5 h-5 mr-2" />
+              Try Demo
+              <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
+            </button>
           </div>
         </div>
       </div>
